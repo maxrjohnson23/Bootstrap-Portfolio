@@ -8,60 +8,77 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <!-- <link rel="stylesheet" type="text/css" href="assets/style.css" /> -->
+    <link rel="stylesheet" type="text/css" href="assets/bootstyle.css" />
 </head>
 
 <body>
-    <div class="nav-div">
-        <nav class="navbar">
-            <h1>Max Johnson</h1>
-            <ul class="nav-buttons clearfix">
-                <li><a href="index.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </div>
-    <div class="page">
-        <section class="main clearfix portfolio">
-            <h2>Portfolio</h2>
-            <a href="#">
-                <div class="gallery"><img src="/assets/images/placeholder.png" alt="portfolio image">
-                    <div class="project">Coming Soon!</div>
+    <nav class="navbar  navbar-fixed-top">
+        <div class="container clearfix nav-container">
+            <div class="row navbar-div">
+                <div class="navbar-header col-md-4 col-sm-6  col-xs-12">
+                    <h1>Max Johnson</h1>
                 </div>
-            </a>
-            <a href="#">
-                <div class="gallery"><img src="/assets/images/placeholder.png" alt="portfolio image">
-                    <div class="project">Coming Soon!</div>
-                </div>
-            </a>
-            <a href="#">
-                <div class="gallery"><img src="/assets/images/placeholder.png" alt="portfolio image">
-                    <div class="project">Coming Soon!</div>
-                </div>
-            </a>
-            <a href="#">
-                <div class="gallery"><img src="/assets/images/placeholder.png" alt="portfolio image">
-                    <div class="project">Coming Soon!</div>
-                </div>
-            </a>
-            <a href="#">
-                <div class="gallery"><img src="/assets/images/placeholder.png" alt="portfolio image">
-                    <div class="project">Coming Soon!</div>
-                </div>
-            </a>
-        </section>
-        <aside class="connect">
-            <h3>Connect with Me</h3>
-            <div class="social-media">
-                <a href="https://github.com/maxrjohnson23" target="_blank">
-                        <img src="/assets/images/github.svg" alt="Github" id="github"></a>
-                <a href="https://www.linkedin.com/in/johnsonmax/" target="_blank">
-                    <img src="/assets/images/linkedin.svg" alt="LinkedIn" id="linkedin"></a>
-                <a href="https://stackoverflow.com/users/1448000/max223" target="_blank">
-                    <img src="/assets/images/stack.svg" alt="StackOverflow" id="stackoverflow"></a>
+                <ul class="nav navbar-nav navbar-right  col-md-4 offset-md-4 col-sm-5 col-sm-offset-1">
+                    <li class="col-xs-4"><a href="index.html">About</a></li>
+                    <li class="active col-xs-4"><a href="portfolio.html">Portfolio</a></li>
+                    <li class="col-xs-4"><a href="contact.html">Contact</a></li>
+                </ul>
             </div>
-        </aside>
+        </div>
+    </nav>
+    <div class="container page">
+        <div class="row">
+            <section class="main portfolio col-lg-8 col-sm-6">
+                <h2>Portfolio</h2>
+                <!-- <div class="row"> -->
+                    <!-- <div class="col-sm-12"> -->
+                        <div class="row gallery">
+                            <div class="col-md-6 gallery-col">
+                                <a href="#">
+                                    <div class="project"><img class="img-responsive" src="/assets/images/placeholder.png" alt="portfolio image">
+                                        <div class="project-banner">Coming Soon!</div>
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="project"><img class="img-responsive" src="/assets/images/placeholder.png" alt="portfolio image">
+                                        <div class="project-banner">Coming Soon!</div>
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="project"><img class="img-responsive" src="/assets/images/placeholder.png" alt="portfolio image">
+                                        <div class="project-banner">Coming Soon!</div>
+                                    </div>
+                                </a>
+                            </div>
+                        <div class="col-md-6 gallery-col">
+                            <a href="#">
+                                <div class="project"><img class="img-responsive" src="/assets/images/placeholder.png" alt="portfolio image">
+                                    <div class="project-banner">Coming Soon!</div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="project"><img class="img-responsive" src="/assets/images/placeholder.png" alt="portfolio image">
+                                    <div class="project-banner">Coming Soon!</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- </div> -->
+                <!-- </div> -->
+            </section>
+            <aside class="connect col-lg-3 col-lg-offset-1 col-sm-4 col-sm-offset-2 col-sm-4 offset-sm-4">
+                <h3>Connect with Me</h3>
+                <div class="social-media">
+                    <a href="https://github.com/maxrjohnson23" target="_blank">
+                        <img src="/assets/images/github.svg" alt="Github" id="github"></a>
+                    <a href="https://www.linkedin.com/in/johnsonmax/" target="_blank">
+                    <img src="/assets/images/linkedin.svg" alt="LinkedIn" id="linkedin"></a>
+                    <a href="https://stackoverflow.com/users/1448000/max223" target="_blank">
+                    <img src="/assets/images/stack.svg" alt="StackOverflow" id="stackoverflow"></a>
+                </div>
+            </aside>
+        </div>
     </div>
     <footer class="footer">
         <small>Copyright &copy; 2017 Max Johnson</small>

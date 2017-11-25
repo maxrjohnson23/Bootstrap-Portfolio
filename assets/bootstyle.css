@@ -123,6 +123,42 @@ nav {
     float: left;
 }
 
+.gallery {
+    /*margin: 0;*/
+    /*vertical-align: middle;*/
+    /*padding: 0 15px;*/
+
+}
+
+.gallery-col {
+    padding: 5px;
+}
+
+.project {
+    margin: 0 auto;
+    height: auto;
+    max-height: 220px;
+
+}
+
+/*.project img {
+ width: 100%;
+ height: auto;
+}*/
+
+.project-banner {
+    box-sizing: border-box;
+    color: #FFF;
+    font-size: 22px;
+    padding: 15px;
+    text-align: center;
+    position: relative;
+    right: 0;
+    bottom: 80px;
+    background-color: #4AAAA5;
+    width: 100%;
+}
+
 footer {
     position: fixed;
     bottom: 0;
