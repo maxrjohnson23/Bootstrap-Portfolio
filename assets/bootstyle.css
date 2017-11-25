@@ -1,0 +1,58 @@
+body {
+    padding-top: 70px;
+    font-family: 'PT Sans', 'Georgia', Times, Times New Roman, serif;
+    background-image: url("/assets/images/background.png");
+}
+
+.navbar-header {
+    background-color: #4AAAA5;
+}
+
+.navbar-header h1 {
+    font-size: 48px;
+    color: #FFF;
+    text-align: center;
+}
+
+.navbar-nav li {
+
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar-nav li a:hover {
+    background-color: #4AAAA5;
+    color: #FFF;
+}
+
+.navbar-nav>li>a {
+    font-size: 1.2em;
+    color: #B1B3B2;
+    text-decoration: none;
+    line-height: 48px;
+    margin: 0;
+    text-align: center;
+}
+
+.main {
+	background-color: #FFF;
+    border: 1px solid #DDD;
+}
+
+.connect {
+    box-sizing: border-box;
+    padding: 20px;
+    vertical-align: top;
+    margin-top: 30px;
+    background-color: #FFF;
+    text-align: center;
+    border: 1px solid #DDD;
+}
+
+#profile-img {
+	width: 200px;
+}
+
+[class*="col-"]:not(:last-child){
+  margin-bottom: 50px;
+}

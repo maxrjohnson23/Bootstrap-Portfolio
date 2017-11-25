@@ -1,4 +1,4 @@
-# Responsive Profile
+# Bootstrap Profile
 A profile website using HTML &amp; CSS with Bootstrap to achieve responsive design
 
 ## Topics Covered
