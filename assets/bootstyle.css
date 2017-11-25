@@ -1,7 +1,27 @@
 body {
-    padding-top: 70px;
+    padding-top: 80px;
     font-family: 'PT Sans', 'Georgia', Times, Times New Roman, serif;
     background-image: url("/assets/images/background.png");
+    margin-bottom: -80px;
+    padding-bottom: 80px;
+}
+
+nav {
+    background-color: #FFF;
+}
+
+.navbar-div {
+    max-width: 960px;
+    margin:0 auto;
+}
+
+.nav-container {
+    padding: 0;
+}
+
+.navbar {
+    border-bottom: 0;
+    height: 80px;
 }
 
 .navbar-header {
@@ -9,9 +29,11 @@ body {
 }
 
 .navbar-header h1 {
+    margin: 0;
     font-size: 48px;
     color: #FFF;
     text-align: center;
+    line-height: 80px;
 }
 
 .navbar-nav li {
@@ -29,30 +51,106 @@ body {
     font-size: 1.2em;
     color: #B1B3B2;
     text-decoration: none;
-    line-height: 48px;
+    line-height: 50px;
     margin: 0;
     text-align: center;
+}
+
+.container {
+    max-width: 960px;
+}
+
+.page {
+    margin-top: 30px;
 }
 
 .main {
 	background-color: #FFF;
     border: 1px solid #DDD;
+    background-color: #FFF;
+    padding: 0px 25px ;
+
+}
+
+
+
+.main h2 {
+    color: #4AAAA5;
+    font-size: 36px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #DDD;
+}
+
+.main p {
+    line-height: 30px;
+    color: #827f7b;
 }
 
 .connect {
     box-sizing: border-box;
-    padding: 20px;
     vertical-align: top;
-    margin-top: 30px;
     background-color: #FFF;
     text-align: center;
     border: 1px solid #DDD;
 }
 
-#profile-img {
-	width: 200px;
+.connect h3 {
+    color: #4AAAA5;
+    font-size: 21px;
+    padding: 15px;
+    margin: 0 auto;
+    border-bottom: 2px solid #DDD;
 }
 
-[class*="col-"]:not(:last-child){
+.connect a {
+    margin: 20px 3px;
+    display: inline-block;
+}
+
+.connect a:hover {
+    opacity: .8;
+}
+
+.connect img {
+    max-width: 60px;
+    width: auto;
+}
+
+#profile-img {
+    width: 200px;
+    margin: 0 25px 20px 0;
+    float: left;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    background-color: #666;
+    border-top: 5px solid #4AAAA5;
+    margin-top: 30px;
+}
+
+footer small {
+    position: relative;
+    top: 20px;
+    color: #BBB;
+    font-size: 12px;
+}
+
+/*[class*="col-"]:not(:last-child){
   margin-bottom: 50px;
+}*/
+
+@media screen and (max-width: 981px) {
+    #profile-img {
+        float: none;
+        display: block;
+        width: 80%;
+        margin: 15px auto;
+    }
+
 }
