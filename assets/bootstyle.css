@@ -151,9 +151,9 @@ nav {
     padding-bottom: 20px;
 }
 
-.contact h3 {
+.contact label {
     color: #888;
-    margin-bottom: 10px;
+    /*margin-bottom: 10px;*/
 }
 
 .contact input,
@@ -168,10 +168,13 @@ textarea {
 #contact-submit {
     font-weight: 100;
     font-size: 16px;
+    padding: 8px 25px;
+    background-color: #faf8ff
+}
+
+#contact-submit:hover {
     color: #FFF;
     background-color: #4AAAA5;
-    border: none;
-    padding: 8px 25px;
 }
 
 footer {

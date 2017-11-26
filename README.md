@@ -6,6 +6,7 @@ A profile website using HTML5 &amp; CSS with Bootstrap to achieve responsive des
 	- Navbar
 	- Grid System
 	- Responsive images
+	- Forms
 * HTML5 elements
 * External fonts
 * Links & Images

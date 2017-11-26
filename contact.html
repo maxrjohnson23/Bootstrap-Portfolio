@@ -31,13 +31,24 @@
             <section class="main contact form-group col-md-8 col-sm-12">
                 <h2>Contact</h2>
                 <form>
-                    <h3>Name</h3>
-                    <input type="text" name="name" placeholder="John Smith">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="John Smith">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" placeholder="example@gmail.com">
+                    </div>
+                     <div class="form-group">
+                        <label for="message">Message</label>
+                         <textarea id="message" cols="30" rows="10"></textarea>
+                    </div>
+                    <!-- <h3>Name</h3>
                     <h3>Email</h3>
-                    <input type="text" name="email" placeholder="example@gmail.com">
-                    <h3>Message</h3>
-                    <textarea name="message" cols="30" rows="10"></textarea>
-                    <button id="contact-submit">Submit</button>
+                    <input type="text" name="email" placeholder="example@gmail.com"> -->
+                    <!-- <h3>Message</h3>
+                    <textarea name="message" cols="30" rows="10"></textarea> -->
+                    <button id="contact-submit" class="btn btn-default">Submit</button>
                 </form>
             </section>
             <aside class="connect form-group col-md-3 col-md-offset-1 col-sm-6 col-sm-offset-3 col-xs-12">
